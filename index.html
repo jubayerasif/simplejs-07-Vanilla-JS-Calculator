@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,23 +10,48 @@
   <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
   <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" /> -->
   <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
   <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"> -->
+
   <title>Vanilla JS Calculator</title>
 </head>
 <body>
-  <div class="container">
+  <div class="calculator">
+    <div class="display"><p>0</p></div>
+    <div class="buttons">
+
+      <button id="AC" onclick="allClear()">AC</button>
+      <button id="plus_minus" onclick="plusMinus('-')">+/-</button>
+      <button id="parcent" onclick="parcent()">%</button>
+      <button class="operator" onclick="addOperation('/')">&divide</button>
+
+      <button class="digit" onclick="addValue('7')">7</button>
+      <button class="digit" onclick="addValue('8')">8</button>
+      <button class="digit" onclick="addValue('9')">9</button>
+      <button class="operator" onclick="addOperation('*')">x</button>
 
 
+      <button class="digit" onclick="addValue('4')">4</button>
+      <button class="digit" onclick="addValue('5')">5</button>
+      <button class="digit" onclick="addValue('6')">6</button>
+      <button class="operator" onclick="addOperation('-')">-</button>
+
+      <button class="digit" onclick="addValue('1')">1</button>
+      <button class="digit" onclick="addValue('2')">2</button>
+      <button class="digit" onclick="addValue('3')">3</button>
+      <button class="operator" onclick="addOperation('+')">+</button>
 
 
+      <button class="digit" id="zero" onclick="addValue('0')">0</button>
+      <button class="digit" onclick="addDecimal('.')">.</button>
+      <button class="operator" onclick="calculate()">=</button>
 
-
-
+    </div>
   </div>
-
   <!-- JavaScript -->
   <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script> -->
   <script src="assets/js/main.js"></script>
 </body>
+
 </html>
