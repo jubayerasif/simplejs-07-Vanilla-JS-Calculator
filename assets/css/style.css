@@ -92,11 +92,57 @@ h1
     display: inline-block;
 }
 .numbers > div{
-
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 4px 10px 0;
+    cursor: pointer;
+    background: #f9f9f9;
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+    -webkit-transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+    -moz-transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+    -ms-transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+    -o-transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+}
+.numbers > div:hover{
+    background: #f1f1f1;
+    box-shadow: 0px 1px 4px 0px  rgba(0, 0, 0, .2);
+    border-color: #bbb;
 }
 
-
-
+.equal{
+    display: inline-block;
+    border: 1px solid #f9800f;
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+    width: 17%;
+    text-align: center;
+    padding: 127px 10px;
+    margin: 10px 6px 10px 0;
+    vertical-align: top;
+    cursor: pointer;
+    background: #f9800f;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+.equal:hover{
+    background: #f79132;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, .2);
+    border-color: #f79132;
+}
 
 
 
