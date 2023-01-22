@@ -1,5 +1,5 @@
 /*--- Fonts --- */
-@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400');
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400");
 /*--- Global css --- */
 /* *
 {
@@ -8,150 +8,148 @@
     padding: 0;
     font-weight: 200;
 } */
-body
-{
-    width: 500px;
-    margin: 4% auto;
-    /* font-family: 'Source Sans Pro', sans-serif; */
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    letter-spacing: 5px;
-    font-size: 30px;
-    background: linear-gradient(to right, #323e5b, #505d7e);
+body {
+  width: 500px;
+  margin: 4% auto;
+  /* font-family: 'Source Sans Pro', sans-serif; */
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  letter-spacing: 5px;
+  font-size: 30px;
+  background: linear-gradient(to right, #323e5b, #505d7e);
 }
-h1
-{
-    margin-top: 110px;
-    color: #f9800f;
-    font-size: 48px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 200;
-    width: 750px;
+h1 {
+  margin-top: 110px;
+  color: #f9800f;
+  font-size: 48px;
+  font-family: "Lato", sans-serif;
+  font-weight: 200;
+  width: 750px;
 }
-.calculator{
-    padding: 20px;
-    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, .2);
-    border-radius: 1px;
-    -webkit-border-radius: 1px;
-    -moz-border-radius: 1px;
-    -ms-border-radius: 1px;
-    -o-border-radius: 1px;
-    background: #e0dcdc;
+.calculator {
+  padding: 20px;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 1px;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -ms-border-radius: 1px;
+  -o-border-radius: 1px;
+  background: #e0dcdc;
 }
-.input{
-    height: 60px;
-    padding-top: 25px;
-    padding-right: 25px;
-    text-align: right;
-    margin-right: -20px;
-    margin-left: -20px;
-    margin-top: -20px;
-    font-size: 40px;
-    overflow-x: auto;
-    transition:all .5s ease-in-out;
-    -webkit-transition:all .5s ease-in-out;
-    -moz-transition:all .5s ease-in-out;
-    -ms-transition:all .5s ease-in-out;
-    -o-transition:all .5s ease-in-out;
-    border: 3px solid #2f2f2f;
-    color: #fff;
-    background-color: #2f2f2f;
+.input {
+  height: 60px;
+  padding-top: 25px;
+  padding-right: 25px;
+  text-align: right;
+  margin-right: -20px;
+  margin-left: -20px;
+  margin-top: -20px;
+  font-size: 40px;
+  overflow-x: auto;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  border: 3px solid #2f2f2f;
+  color: #fff;
+  background-color: #2f2f2f;
 }
-.input:hover{
-    border: 1px solid #bbb;
-    box-shadow: inset 0px 1px 4px 0px  rgba(0, 0, 0, .2);
+.input:hover {
+  border: 1px solid #bbb;
+  box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
 }
 
-.operators > div{
-    display: inline-block;
-    border: 1px solid #bbb;
-    border-radius: 1px;
-    -webkit-border-radius: 1px;
-    -moz-border-radius: 1px;
-    -ms-border-radius: 1px;
-    -o-border-radius: 1px;
-    width: 80px;
-    padding: 10px;
-    margin: 20px 4px 10px 0;
-    text-align: center;
-    cursor: pointer;
-    background: #bbb;
-    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
-    -webkit-transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
-    -moz-transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
-    -ms-transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
-    -o-transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+.operators > div {
+  display: inline-block;
+  border: 1px solid #bbb;
+  border-radius: 1px;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -ms-border-radius: 1px;
+  -o-border-radius: 1px;
+  width: 80px;
+  padding: 10px;
+  margin: 20px 4px 10px 0;
+  text-align: center;
+  cursor: pointer;
+  background: #bbb;
+  transition: border-color 0.2s ease-in-out, background-color 0.2s,
+    box-shadow 0.2s;
+  -webkit-transition: border-color 0.2s ease-in-out, background-color 0.2s,
+    box-shadow 0.2s;
+  -moz-transition: border-color 0.2s ease-in-out, background-color 0.2s,
+    box-shadow 0.2s;
+  -ms-transition: border-color 0.2s ease-in-out, background-color 0.2s,
+    box-shadow 0.2s;
+  -o-transition: border-color 0.2s ease-in-out, background-color 0.2s,
+    box-shadow 0.2s;
 }
 .operators > div:hover {
-    background: #bbb;
-    box-shadow: 0px 1px 4px 0px  rgba(0, 0, 0, .2);
-    border-color: #aaa;
+  background: #bbb;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  border-color: #aaa;
 }
-.leftPanel
-{
-    display: inline-block;
+.leftPanel {
+  display: inline-block;
 }
-.numbers > div{
-    display: inline-block;
-    border: 1px solid #ddd;
-    border-radius: 1px;
-    -webkit-border-radius: 1px;
-    -moz-border-radius: 1px;
-    -ms-border-radius: 1px;
-    -o-border-radius: 1px;
-    width: 80px;
-    text-align: center;
-    padding: 10px;
-    margin: 10px 4px 10px 0;
-    cursor: pointer;
-    background: #f9f9f9;
-    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
-    -webkit-transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
-    -moz-transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
-    -ms-transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
-    -o-transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+.numbers > div {
+  display: inline-block;
+  border: 1px solid #ddd;
+  border-radius: 1px;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -ms-border-radius: 1px;
+  -o-border-radius: 1px;
+  width: 80px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 4px 10px 0;
+  cursor: pointer;
+  background: #f9f9f9;
+  transition: border-color 0.2s ease-in-out, background-color 0.2s,
+    box-shadow 0.2s;
+  -webkit-transition: border-color 0.2s ease-in-out, background-color 0.2s,
+    box-shadow 0.2s;
+  -moz-transition: border-color 0.2s ease-in-out, background-color 0.2s,
+    box-shadow 0.2s;
+  -ms-transition: border-color 0.2s ease-in-out, background-color 0.2s,
+    box-shadow 0.2s;
+  -o-transition: border-color 0.2s ease-in-out, background-color 0.2s,
+    box-shadow 0.2s;
 }
-.numbers > div:hover{
-    background: #f1f1f1;
-    box-shadow: 0px 1px 4px 0px  rgba(0, 0, 0, .2);
-    border-color: #bbb;
-}
-
-.equal{
-    display: inline-block;
-    border: 1px solid #f9800f;
-    border-radius: 1px;
-    -webkit-border-radius: 1px;
-    -moz-border-radius: 1px;
-    -ms-border-radius: 1px;
-    -o-border-radius: 1px;
-    width: 17%;
-    text-align: center;
-    padding: 127px 10px;
-    margin: 10px 6px 10px 0;
-    vertical-align: top;
-    cursor: pointer;
-    background: #f9800f;
-    transition: all .2s ease-in-out;
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    -ms-transition: all .2s ease-in-out;
-    -o-transition: all .2s ease-in-out;
-}
-.equal:hover{
-    background: #f79132;
-    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, .2);
-    border-color: #f79132;
+.numbers > div:hover {
+  background: #f1f1f1;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  border-color: #bbb;
 }
 
-
-
-
-
-
-
-
-
+.equal {
+  display: inline-block;
+  border: 1px solid #f9800f;
+  border-radius: 1px;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -ms-border-radius: 1px;
+  -o-border-radius: 1px;
+  width: 17%;
+  text-align: center;
+  padding: 127px 10px;
+  margin: 10px 6px 10px 0;
+  vertical-align: top;
+  cursor: pointer;
+  background: #f9800f;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+.equal:hover {
+  background: #f79132;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  border-color: #f79132;
+}
 
 /* Thanks for watching */
 /* 1/22/2023 */
