@@ -1,11 +1,11 @@
 /*--- Fonts --- */
 @import url("https://fonts.googleapis.com/css?family=Lato:100,300,400");
 /*--- Global css --- */
-*
+/* *
 {
     margin: 0;
     padding: 0;
-}
+} */
 body {
   width: 500px;
   margin: 4% auto;
@@ -149,14 +149,18 @@ h1 {
   border-color: #f79132;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 412px) {
   h1 {
     font-size: 28px;
-    /* text-align: center; */
   }
   body {
     width: 325px;
     font-size: 20px;
+    /* height: 25%; */
+    background: #323e5b;
+    /* height: 500px; */
+    /* overflow:hidden;height:100%; */
+    min-height: 100vh;
   }
   .operators > div, .numbers > div {
     width: 40px;
@@ -166,8 +170,8 @@ h1 {
   .equal {
     width: 15%;
     height: 62px;
-    display: inline-block;
-    padding: 77px 5px;
+    /* display: inline-block; */
+    padding: 77px 4px;
     margin-left: 5px;
   }
 }
